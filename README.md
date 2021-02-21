@@ -19,10 +19,10 @@ Project developed to use microservices in an e-commerce environment.
     - Java
     - Spring Boot
     - PostgreSQL
-	- Docker
-	- Apache ZooKeeper
-	- Apache Kafka
-	- Apache Avro
+    - Docker
+    - Apache ZooKeeper
+    - Apache Kafka
+    - Apache Avro
 ---
 
 ## 🚀 How to run
@@ -45,7 +45,7 @@ Project developed to use microservices in an e-commerce environment.
 	
     run ecommerce-checkout-api and ecommerce-payment-api in your IDE. 
     
-	Open ecommerce-checkout-frontend/cart.html in your browser, complete the fields and click buy.
+	Open ecommerce-checkout-frontend/cart.html in your browser, fill in the fields and click buy.
 	
 	Notes:
 	->Access http://localhost:8080/v1/checkout/ in the postman ou insomnia to make a request (POST) in JSON format. To this alter in the class CheckoutResource
