@@ -40,17 +40,17 @@ Project developed to use microservices in an e-commerce environment.
 
     # Running web project	
 	
-	In the terminal run docker-compose up --build --force-recreate to build and docker-compose down to destroy.
-	Run docker ps to check.
+    In the terminal access ecommerce-checkout-api/docker and run docker-compose up --build --force-recreate to build and docker-compose down to destroy.
+    Run docker ps to check.
 	
     run ecommerce-checkout-api and ecommerce-payment-api in your IDE. 
     
-	Open ecommerce-checkout-frontend/cart.html in your browser, fill in the fields and click buy.
-	
-	Notes:
-	->Access http://localhost:8080/v1/checkout/ in the postman ou insomnia to make a request (POST) in JSON format. To this alter in the class CheckoutResource
-	  @ModelAttribute to @RequestBody.
-	->http://localhost:8081/subjects/streaming.ecommerce.checkout.created-value/versions/latest
+    Open ecommerce-checkout-frontend/cart.html in your browser, fill in the fields and click buy.
+	 
+    Notes:
+    -> Access http://localhost:8080/v1/checkout/ in the postman ou insomnia to make a request (POST) in JSON format. To this alter in the class CheckoutResource
+       @ModelAttribute to @RequestBody.
+    -> http://localhost:8081/subjects/streaming.ecommerce.checkout.created-value/versions/latest
 	
     
   ```
