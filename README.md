@@ -18,11 +18,13 @@ Project developed to use microservices in an e-commerce environment.
 ## 💻 Technologies
     - Java
     - Spring Boot
+    - Spring Cloud Stream (framework for building highly scalable event-driven microservices connected with shared messaging systems)
+    - Schema Registry (to ensure compatibility between microservice communication)
     - PostgreSQL
     - Docker
-    - Apache ZooKeeper
-    - Apache Kafka
-    - Apache Avro
+    - Apache ZooKeeper (manage all brokers in kafka)
+    - Apache Kafka (distributed platform of messaging and streaming. Broker: instances of kafka)
+    - Apache Avro (data serialization)
 ---
 
 ## 🚀 How to run
@@ -50,7 +52,7 @@ Project developed to use microservices in an e-commerce environment.
     Notes:
     -> Access http://localhost:8080/v1/checkout/ in the postman ou insomnia to make a request (POST) in JSON format. To this alter in the class CheckoutResource
        @ModelAttribute to @RequestBody.
-    -> http://localhost:8081/subjects/streaming.ecommerce.checkout.created-value/versions/latest
+    -> Schema Registry API: http://localhost:8081/subjects/streaming.ecommerce.checkout.created-value/versions/latest
 	
     
   ```
